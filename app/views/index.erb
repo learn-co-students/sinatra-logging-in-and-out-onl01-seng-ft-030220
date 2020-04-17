@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">  
   </head>
   <body id="page-top">
-    <h1>Welcome to FlatBank</h1>
+    <h1>Welcome to FlatBank</h1><br>
     <h3>Log In Please</h3>
-
+    <form action="/login" method="POST">
+      <label for="username">User Name</label>
+      <input id="username" type="text" name="username">
+      <label for="password">Password</label>
+      <input id="password" type="text" name="password">
+      <input type="submit" value="log_in"
+    </form>
   </body>
 </html>
